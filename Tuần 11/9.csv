@@ -1,0 +1,18 @@
+CalculatorTest;;;;;;;;IsPrimeTest;;;;;;;;FindMinTest;;;;
+STEP;test Data;Expected Result ;Actual Result ;Fail/Pass;;;;STEP;test Data;Expected Result ;Actual Result ;Fail/Pass;;;;STEP;test Data;Expected Result;Actual Result;Fail/Pass
+1;1,2;6;6;Pass;;;;1;-1;FALSE;FALSE;Pass;;;;1;1,2,3;1;1;Pass
+2;3,2;-2;-2;Pass;;;;2;0;FALSE;FALSE;Pass;;;;2;5,2,8;2;2;Pass
+;;;;;;;;3;2;TRUE;TRUE;Pass;;;;3;5,2,0;0;0;Pass
+;;;;;;;;4;6;FALSE;FALSE;Pass;;;;4;2,4,1;3;3;Pass
+;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;
+PTBacNhatTest;;;;;;;;IsTriangleTest;;;;;;;;;;;;
+STEP;test Data;Expected Result;Actual Result;Fail/Pass;;;;STEP;test Data;Expected Result;Actual Result;Fail/Pass;;;;;;;;
+1;0, 100;Double.MIN_VALUE;Double.MIN_VALUE;Pass;;;;1;3,4,5;TRUE;TRUE;Pass;;;;;;;;
+2;0, 0;Double.MAX_VALUE;Double.MAX_VALUE;Pass;;;;2;6,8,10;TRUE;TRUE;Pass;;;;;;;;
+3;2, 4;-2;-2;Pass;;;;3;5,12,13;TRUE;TRUE;Pass;;;;;;;;
+;;;;;;;;4;2,3,6;FALSE;FALSE;Pass;;;;;;;;
+;;;;;;;;5;1,1,2 ;FALSE;FALSE;Pass;;;;;;;;
+;;;;;;;;6;0,0,2;FALSE;FALSE;Pass;;;;;;;;
